@@ -22,8 +22,14 @@
 1. Open a terminal and install client dependencies:
 
 ```powershell
-cd d:/rainwater-convention/client
+# Clone the repository (HTTPS or SSH), change into the client folder, install and run
+# HTTPS:
+git clone https://github.com/HasnathAhmedTamim/Assignment1_RainwaterWebsite.git
+# or SSH:
+# git clone git@github.com:HasnathAhmedTamim/Assignment1_RainwaterWebsite.git
+cd Assignment1_RainwaterWebsite/client
 npm install
+npm run dev
 ```
 
 2. Start the Vite dev server:
@@ -41,7 +47,8 @@ npm run dev
 **Build & preview (production)**
 
 ```powershell
-cd d:/rainwater-convention/client
+# From the repo root or from the `client` folder:
+cd Assignment1_RainwaterWebsite/client
 npm run build
 npm run preview
 ```
