@@ -53,6 +53,9 @@ npm run build
 npm run preview
 ```
 
+**Live demo**
+- View the deployed site: https://assignment1-rainwater-website.vercel.app/
+
 **Deploying**
 - The client builds to `client/dist/` and can be deployed to any static host (Netlify, Vercel, GitHub Pages, nginx). For static hosts, point the deploy target to the `dist` folder produced by the client build.
 
