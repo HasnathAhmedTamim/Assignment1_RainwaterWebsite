@@ -12,6 +12,7 @@
 
 **Files & locations (important)**
 - `client/` — front-end app (Vite + React).
+ - `Assignment1_RainwaterWebsite/` — front-end app (Vite + React).
   - `client/src/pages/Home.jsx`
   - `client/src/pages/FAQs.jsx`
   - `client/src/pages/Register.jsx` (registration logic + localStorage writes)
@@ -22,12 +23,12 @@
 1. Open a terminal and install client dependencies:
 
 ```powershell
-# Clone the repository (HTTPS or SSH), change into the client folder, install and run
+# Clone the repository (HTTPS or SSH), change into the Assignment1_RainwaterWebsite folder, install and run
 # HTTPS:
 git clone https://github.com/HasnathAhmedTamim/Assignment1_RainwaterWebsite.git
 # or SSH:
 # git clone git@github.com:HasnathAhmedTamim/Assignment1_RainwaterWebsite.git
-cd Assignment1_RainwaterWebsite/client
+cd Assignment1_RainwaterWebsite
 npm install
 npm run dev
 ```
@@ -47,8 +48,8 @@ npm run dev
 **Build & preview (production)**
 
 ```powershell
-# From the repo root or from the `client` folder:
-cd Assignment1_RainwaterWebsite/client
+# From the repo root or from the `Assignment1_RainwaterWebsite` folder:
+cd Assignment1_RainwaterWebsite
 npm run build
 npm run preview
 ```
@@ -57,7 +58,7 @@ npm run preview
 - View the deployed site: https://assignment1-rainwater-website.vercel.app/
 
 **Deploying**
-- The client builds to `client/dist/` and can be deployed to any static host (Netlify, Vercel, GitHub Pages, nginx). For static hosts, point the deploy target to the `dist` folder produced by the client build.
+ - The project builds to `dist/` and can be deployed to any static host (Netlify, Vercel, GitHub Pages, nginx). For static hosts, point the deploy target to the `dist` folder produced by the build.
 
 **Data & persistence**
 - Data is stored in-browser in `localStorage` using the key `rainwater_participants` as a JSON array of participant objects. Data is local to each browser and origin; clearing browser storage removes the records.
