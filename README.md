@@ -10,7 +10,7 @@
 - Admin portal: reads participants from `localStorage`, displays a table, and supports deletion with SweetAlert2 confirmation.
 - Styling: Tailwind CSS utilities are used across the app.
 
-**Files & locations (important)**
+**Files & locations**
 - `client/` — front-end app (Vite + React).
  - `Assignment1_RainwaterWebsite/` — front-end app (Vite + React).
   - `client/src/pages/Home.jsx`
